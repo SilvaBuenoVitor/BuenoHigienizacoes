@@ -1,23 +1,107 @@
-.blue{
-    color: royalblue;
+body{
+    width: 100%;
 }
 .banner{
-    height: 63rem;
+    height: 100vh;
     width: 100%;
     padding: 0px;
+    border: 0px;
+    border-radius: 0%;
 }
-body{
-    background-color: #f5f5f5;
+.capa{
+    height: 60vh;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0%;
 }
+.slide{
+    height: 40vh;
+}
+.banner-redondo{
+    height: 20rem;
+    width: 20rem;
+    border: 0px;
+    border-radius: 50%;
+}
+.redondo{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+#borda-amarela{
+    border: 0.2rem solid;
+    border-color: #f3c014;
+}
+.redondo-fundo{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    margin-top: 0%;
+}
+
+
+.no-border{
+    border: 0px;
+}
+
+.jumbo{
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+.jumbo-2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.bolha{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.logo{
+    height: 16rem;
+}
+.marca{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.bolhas-fundo{
+    height: 20rem;
+    width: auto;
+    background: none;
+}
+.bolhas-fundo-a{
+    height: 20rem;
+    background: none;
+}
+.no-background{
+    background: none;
+}
+
 .center-card{
-    padding-top:12rem;
+    padding-top:0%;
 }
 
 .card-img-top{
     width:auto;
     height: 15rem;
 }
-
+.blue-background-b{
+    background-image: url(../img/background-a.jpg);
+    background-size: cover;
+}
+.blue-background{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+.icon{
+    height: 1.5rem;
+    filter: invert(67%) sepia(79%) saturate(437%) hue-rotate(339deg) brightness(104%) contrast(88%);
+}
 .pt-row{
     padding-top: 5rem;
 }
@@ -27,4 +111,47 @@ body{
 a{
     text-decoration: inherit;
     color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.center-banner{
+    padding-top: 30%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For desktop: */
+    .marca{
+        font-size: 4rem;
+    }
+    .icon{
+        height: 3rem;
+    }
+    .redondo{
+        height: 35rem;
+        width: 35rem;
+        margin-top: 25%;
+    }
+    .center-card{
+        padding-top: 40%;
+    }
+    .bolhas-fundo-a{
+        height: 100vh;
+        width: 100%;
+    }
+    .logo{
+        height: 30vh;
+    }
+    .capa{
+        height: 40vh;
+    }
+    .slide{
+        height: 50vh;
+    }
+    .slide-size{
+        height: 50vh;   
+    }
 }
