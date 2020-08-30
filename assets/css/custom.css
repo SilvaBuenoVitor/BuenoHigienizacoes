@@ -3,14 +3,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.banner{
-    height: 100vh;
-    width: 100%;
-    padding: 0px;
-    border: 0px;
-    border-radius: 0%;
+.display-3{
+    font-family: 'Sail', cursive;
 }
-.banner-inicial{
+.banner{
     height: 100vh;
     width: 100%;
     padding: 0px;
@@ -27,41 +23,15 @@ body{
 .slide{
     height: 40vh;
 }
-.banner-redondo{
-    height: 20rem;
-    width: 20rem;
-    border: 0px;
-    border-radius: 50%;
-}
-.redondo{
-    height: 18rem;
-    width: 18rem;
-    border-radius: 50%;
-    margin-top: 20%;
-}
 #borda-amarela{
-    border: 0.2rem solid;
+    border: 1.5rem solid;
     border-color: #f3c014;
 }
-.redondo-fundo{
-    height: 18rem;
-    width: 18rem;
-    border-radius: 50%;
-    margin-top: 0%;
-}
-
-
 .no-border{
     border: 0px;
 }
-
 .jumbo{
     font-size: 1.7rem;
-    font-weight: lighter;
-}
-
-.jumbo-2{
-    font-size: 1.5rem;
     font-weight: lighter;
 }
 .bolha{
@@ -72,6 +42,7 @@ body{
 }
 .logo{
     height: 24rem;
+    margin-top: 20%;
 
 }
 .marca{
@@ -95,11 +66,6 @@ body{
 .center-card{
     padding-top:0%;
 }
-
-.card-img-top{
-    width:auto;
-    height: 15rem;
-}
 .blue-background-b{
     background-image: url(../img/background-a.jpg);
     background-size: cover;
@@ -116,12 +82,6 @@ body{
     height: 1.5rem;
     filter: invert(67%) sepia(79%) saturate(437%) hue-rotate(339deg) brightness(104%) contrast(88%);
 }
-.pt-row{
-    padding-top: 5rem;
-}
-.pt-row-i{
-    padding-top: 2rem;
-}
 a{
     text-decoration: inherit;
     color: inherit;
@@ -130,13 +90,10 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
-.center-banner{
-    padding-top: 30%;
-}
 .footer{
     height: 2rem;
     width: 100%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     background-color:#333333;
     color: white;
 }
@@ -149,11 +106,7 @@ a:hover{
     .icon{
         height: 3rem;
     }
-    .redondo{
-        height: 35rem;
-        width: 35rem;
-        margin-top: 25%;
-    }
+    
     .center-card{
         padding-top: 30%;
     }
@@ -164,6 +117,7 @@ a:hover{
     }
     .logo{
         height: 70vh;
+        margin-top: 0%;
     }
     .capa{
         height: 40vh;
@@ -194,13 +148,6 @@ a:hover{
     .blue-background{
         background-size: cover;
     }
-    .banner-inicial{
-        height: 130vh;
-        width: 100%;
-        padding: 0px;
-        border: 0px;
-        border-radius: 0%;
-    }
     .display-3{
         font-size: 5.5rem;
         font-weight: 500;
@@ -211,5 +158,11 @@ a:hover{
     }
     .marca{
         font-size: 7rem;
+    }
+    .white-background{
+        background-color: rgba(256, 256, 256, .5);
+    }
+    .carousel-caption{
+        margin-left: -15%;
     }
 }
