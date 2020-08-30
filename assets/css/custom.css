@@ -1,7 +1,16 @@
 body{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .banner{
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0%;
+}
+.banner-inicial{
     height: 100vh;
     width: 100%;
     padding: 0px;
@@ -62,7 +71,8 @@ body{
     margin-top: 5%;
 }
 .logo{
-    height: 16rem;
+    height: 24rem;
+
 }
 .marca{
     font-family: 'Euphoria Script', cursive;
@@ -94,6 +104,10 @@ body{
     background-image: url(../img/background-a.jpg);
     background-size: cover;
 }
+.blue-background-a{
+    background-image: url(../img/background-a.jpg);
+    background-size: cover;
+}
 .blue-background{
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -116,10 +130,15 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
-
-
 .center-banner{
     padding-top: 30%;
+}
+.footer{
+    height: 2rem;
+    width: 100%;
+    font-size: 0.5rem;
+    background-color:#333333;
+    color: white;
 }
 
 @media only screen and (min-width: 600px) {
@@ -136,22 +155,61 @@ a:hover{
         margin-top: 25%;
     }
     .center-card{
-        padding-top: 40%;
+        padding-top: 30%;
     }
     .bolhas-fundo-a{
-        height: 100vh;
-        width: 100%;
+        height: 80vh;
+        width: 80vh;
+        margin-left: 30%;
     }
     .logo{
-        height: 30vh;
+        height: 70vh;
     }
     .capa{
         height: 40vh;
     }
     .slide{
-        height: 50vh;
+        height: 80vh;
     }
     .slide-size{
-        height: 50vh;   
+        height: 80vh;   
+    }
+    .bolha{
+        height: 50vh;
+        width: 50vh;
+        margin-top: 20%;
+    }
+    .bolhas-fundo{
+        height: 70vh;
+        width: 70vh;
+        margin-top: 10%;
+    }
+    .blue-background-a{
+        background-image: url(/assets/img/background-b.jpg);
+        background-size: 100% 100%;
+    }
+    .blue-background-b{
+        background-size: 100% 100%;
+    }
+    .blue-background{
+        background-size: cover;
+    }
+    .banner-inicial{
+        height: 130vh;
+        width: 100%;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0%;
+    }
+    .display-3{
+        font-size: 5.5rem;
+        font-weight: 500;
+        font-family: 'Sail', cursive;
+    }
+    .jumbo{
+        font-size: 3rem;
+    }
+    .marca{
+        font-size: 7rem;
     }
 }
