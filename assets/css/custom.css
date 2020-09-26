@@ -32,7 +32,7 @@ body{
 }
 .jumbo{
     font-size: 1.7rem;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .bolha{
     height: 16rem;
@@ -41,7 +41,7 @@ body{
     margin-top: 5%;
 }
 .logo{
-    height: 24rem;
+    height: 20rem;
     margin-top: 20%;
 
 }
@@ -80,7 +80,11 @@ body{
 }
 .icon{
     height: 1.5rem;
-    filter: invert(67%) sepia(79%) saturate(437%) hue-rotate(339deg) brightness(104%) contrast(88%);
+    filter: invert(80%) sepia(11%) saturate(4919%) hue-rotate(349deg) brightness(103%) contrast(108%);
+}
+.icon-text{
+    height: 4rem;
+    filter: invert(80%) sepia(11%) saturate(4919%) hue-rotate(349deg) brightness(103%) contrast(108%);
 }
 a{
     text-decoration: inherit;
@@ -93,7 +97,7 @@ a:hover{
 .footer{
     height: 2rem;
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     background-color:#333333;
     color: white;
 }
@@ -106,7 +110,9 @@ a:hover{
     .icon{
         height: 3rem;
     }
-    
+    .icon-text{
+        height: 4rem;
+    }
     .center-card{
         padding-top: 30%;
     }
@@ -116,7 +122,7 @@ a:hover{
         margin-left: 30%;
     }
     .logo{
-        height: 70vh;
+        height: 60vh;
         margin-top: 0%;
     }
     .capa{
@@ -139,7 +145,7 @@ a:hover{
         margin-top: 10%;
     }
     .blue-background-a{
-        background-image: url(/assets/img/background-b.jpg);
+        background-image: url(../img/background-b.jpg);
         background-size: 100% 100%;
     }
     .blue-background-b{
@@ -147,6 +153,7 @@ a:hover{
     }
     .blue-background{
         background-size: cover;
+        background-size: 100% 100%;
     }
     .display-3{
         font-size: 5.5rem;
@@ -155,6 +162,9 @@ a:hover{
     }
     .jumbo{
         font-size: 3rem;
+    }
+    .jumbo-title{
+        font-size: 5rem;
     }
     .marca{
         font-size: 7rem;
