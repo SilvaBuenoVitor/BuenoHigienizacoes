@@ -101,6 +101,16 @@ a:hover{
     background-color:#333333;
     color: white;
 }
+.round-border{
+    border-bottom-left-radius:7%;
+    border-bottom-right-radius:7%;
+}
+.x-center{
+    margin-left: 15%;
+}
+.card-size{
+    width: 18rem;
+}
 
 @media only screen and (min-width: 600px) {
     /* For desktop: */
@@ -109,6 +119,9 @@ a:hover{
     }
     .icon{
         height: 3rem;
+    }
+    .x-center{
+        margin-left: 25%;
     }
     .icon-text{
         height: 4rem;
@@ -174,5 +187,8 @@ a:hover{
     }
     .carousel-caption{
         margin-left: -15%;
+    }
+    .card-size{
+        width: 24rem;
     }
 }
